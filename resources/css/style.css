@@ -44,3 +44,55 @@ nav li a {
     flex-grow: 1;
     padding-left: 30px;
 }
+
+.container-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1250px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.column {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.news-image {
+  display: flex;
+}
+
+.news-image h2 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.news-main {
+    background: url('../images/img-story-main.png');
+    height: 300px;
+}
+
+.news-main h2 {
+  font-size: 40px;
+}

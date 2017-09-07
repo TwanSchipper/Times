@@ -12,6 +12,7 @@ header {
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
+    color: mediumaquamarine;
 }
 
 header nav {
@@ -23,10 +24,14 @@ nav li {
     display: inline-block;
 }
 
+nav li a {
+  padding: 10px 20px;
+  text-decoration: underline;
+}
+
 .logo {
     display: flex;
     align-items: center;
     flex-grow: 1;
     padding-left: 30px;
 }
-

@@ -86,13 +86,47 @@ nav li a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
-.news-main {
+.news-image.news-main {
     background: url('../images/img-story-main.png');
     height: 300px;
 }
 
+.news-image.news-one {
+  background: url('../images/img-story-2.png');
+  height: 200px;
+}
+
+.news-image.news-two {
+  background: url('../images/img-story-3.png');
+  height: 200px;
+}
+
+.news-image.news-three {
+  background: url('../images/img-story-1.png');
+  height: 200px;
+}
+
 .news-main h2 {
   font-size: 40px;
+  text-align: left;
+  align-items: center;
+}
+
+.news-image {
+  align-items: center;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  width: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }

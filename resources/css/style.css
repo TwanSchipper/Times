@@ -12,7 +12,15 @@ header {
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
-    color: mediumaquamarine;
+}
+
+header img {
+  margin-right: 15px;
+}
+
+header h1 {
+  color: mediumaquamarine;
+  font-size: 14px;
 }
 
 header nav {
@@ -27,6 +35,7 @@ nav li {
 nav li a {
   padding: 10px 20px;
   text-decoration: underline;
+  color: #000;
 }
 
 .logo {
